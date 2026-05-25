@@ -1,6 +1,5 @@
-World.png {
-
-   width: 20px;
-   height: auto;
-
+img {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
 }
