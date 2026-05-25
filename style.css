@@ -1,6 +1,5 @@
 img {
-    
-  width: 200px;
-  height: auto;
-
+  height: 1em;
+  width: auto;
+  vertical-align: middle;
 }
