@@ -1,5 +1,78 @@
-img {
-  width: 50px;
-  height: auto;
-  vertical-align: middle;
+body {
+    background-color: #ffffff;
+    color: #111111;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0 15%;
+}
+
+header {
+    text-align: center;
+    padding: 60px 0;
+    border-bottom: 2px solid #111111;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-style: italic;
+    color: #555555;
+    font-size: 1.1rem;
+}
+
+.post-card {
+    margin: 60px auto;
+    max-width: 800px;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.blog-img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover; /* Recorta a imagem elegantemente se necessário */
+    filter: grayscale(100%);
+    transition: filter 0.6s ease;
+    margin-bottom: 25px;
+}
+
+/* O Efeito Mágico: Passou o mouse, ganha cor! */
+.blog-img:hover {
+    filter: grayscale(0%);
+}
+
+.text-container {
+    text-align: justify;
+}
+
+p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #222222;
+    text-indent: 30px; /* Dá aquele parágrafo clássico de revista */
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    border-top: 1px solid #111111;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    color: #666666;
+    letter-spacing: 1px;
 }
